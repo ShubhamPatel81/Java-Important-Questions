@@ -24,6 +24,8 @@ public class Graph {
         adjMatrix = new int[nodes][nodes]; // java will initialize all the value as 0; -->2*2 matrix -> [0,0][0,0]
         adjList = new ArrayList<>();
         adjListWithWeight = new ArrayList<>();
+
+
         for (int i =0 ; i < nodes;i++){
             adjList.add(new ArrayList<>());
             adjListWithWeight.add(new ArrayList<>());
