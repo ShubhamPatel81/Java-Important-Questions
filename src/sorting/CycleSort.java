@@ -2,6 +2,8 @@ package src.sorting;
 
 public class CycleSort {
 
+    // Cyclic sort is used to find the duplicates form an array
+
     // this is for range 1 to N
     public static  void  cycleSort(int []arr){
         System.out.println("\nCyclic Sorted Array form 1 to N  : ");
@@ -37,7 +39,6 @@ public class CycleSort {
         for (int cycles = 0 ; cycles <n -1; cycles++ ){
             int pos = cycles;
             int item= arr[cycles];
-
             // to find number of smaller elements
             for (int  i = cycles +1 ; i< n; i++){
                 if (arr[i] < item){

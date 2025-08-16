@@ -13,7 +13,7 @@ public class MonoInJava8 {
 //    }
 
 
-//    n this example, Mono represents a reactive type that can emit zero or one elements.
+//    in this example, Mono represents a reactive type that can emit zero or one elements.
 //    The greeting() method returns a Mono<String>, indicating that it will eventually emit a string.
 //    This allows the server to handle multiple requests concurrently without blocking.
 
