@@ -1,13 +1,13 @@
 package src.OOPS;
 
-interface Animals{
+interface Animals1{
     void walk();
 //    void eat(){
 //
 //    }
     // we can't give the body of any method inside the interface class
 }
-class Horses implements Animals{
+class Horses implements Animals1{
 
     @Override
     public void walk() {

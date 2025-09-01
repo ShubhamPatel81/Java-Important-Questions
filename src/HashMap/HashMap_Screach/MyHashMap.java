@@ -65,8 +65,6 @@ public class MyHashMap <K,V>{
                put(node.Key,node.Value);
            }
        }
-
-
     }
     public void put(K key,V value){
        // find the hashCode
@@ -113,7 +111,6 @@ public class MyHashMap <K,V>{
            return true;
         }
     }
-
     public V remove(K key){
         // find the hashCode
         int hashcode= getHashCode(key);
@@ -140,7 +137,6 @@ public class MyHashMap <K,V>{
     }
     public boolean containsValue(V value) {
         // find the hashcode
-
         for (int i = 0; i < tableSize; i++) {
             for (Node node : hashTable[i]) {
                 if (node.Value.equals(value)) {

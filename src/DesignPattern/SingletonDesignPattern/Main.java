@@ -1,6 +1,10 @@
 package src.DesignPattern.SingletonDesignPattern;
 // In singleton design pattern -> hm only ek hi baar object create karte hai aur pure project me kahi bhi use kr sakete hai
-
+// A Singleton class ensures only one instance exists  in the JVM
+//--->  How to make singleton
+// 1. private static instance
+// 2. private constructor
+// 3. public method to return instance
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.ObjectInputStream;
