@@ -1,4 +1,4 @@
-package src.Encapsultaion;
+package src.OOPS.Encapsultaion;
 
 public class Students   {
     private String name;  // Private data

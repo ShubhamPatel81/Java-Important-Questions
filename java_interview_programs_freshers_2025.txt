@@ -1,0 +1,58 @@
+Java Interview Programming Questions for Freshers (2025)
+
+1.  Write a program to print “Hello, World!”.
+2.  Write a program to swap two numbers without using a third variable.
+3.  Write a program to check if a number is prime or not.
+4.  Write a program to generate Fibonacci series up to n terms.
+5.  Write a program to find the factorial of a number.
+6.  Write a program to check if a string is a palindrome.
+7.  Write a program to reverse a string without using built-in
+    functions.
+8.  Write a program to count vowels and consonants in a string.
+9.  Write a program to find the largest and smallest number in an array.
+10. Write a program to sort an array in ascending order.
+11. Write a program to find the second largest number in an array.
+12. Write a program to check if two strings are anagrams.
+13. Write a program to remove duplicate elements from an array.
+14. Write a program to check if a number is Armstrong or not.
+15. Write a program to find the sum of digits of a number.
+16. Write a program to print the pattern (triangle/pyramid).
+17. Write a program to print prime numbers between 1 and 100.
+18. Write a program to count the frequency of each character in a
+    string.
+19. Write a program to check if a given year is a leap year.
+20. Write a program to find the GCD and LCM of two numbers.
+21. Write a program to implement binary search on an array.
+22. Write a program to implement linear search.
+23. Write a program to implement bubble sort.
+24. Write a program to implement selection sort.
+25. Write a program to implement insertion sort.
+26. Write a program to check if an array is sorted or not.
+27. Write a program to reverse an array.
+28. Write a program to find the sum of elements in an array.
+29. Write a program to demonstrate method overloading.
+30. Write a program to demonstrate method overriding.
+31. Write a program to demonstrate inheritance in Java.
+32. Write a program to demonstrate polymorphism in Java.
+33. Write a program to demonstrate abstraction using abstract class.
+34. Write a program to demonstrate interface implementation.
+35. Write a program to demonstrate encapsulation with getter and setter
+    methods.
+36. Write a program to demonstrate constructor overloading.
+37. Write a program to demonstrate static keyword usage.
+38. Write a program to demonstrate the use of final keyword.
+39. Write a program to demonstrate exception handling
+    (try-catch-finally).
+40. Write a program to demonstrate multiple catch blocks.
+41. Write a program to demonstrate custom exception handling.
+42. Write a program to demonstrate multithreading using Thread class.
+43. Write a program to demonstrate multithreading using Runnable
+    interface.
+44. Write a program to demonstrate synchronization in threads.
+45. Write a program to demonstrate lambda expression in Java.
+46. Write a program to demonstrate functional interface.
+47. Write a program to demonstrate Stream API operations (filter, map,
+    collect).
+48. Write a program to demonstrate sorting with Comparator.
+49. Write a program to read and write a file in Java.
+50. Write a program to serialize and deserialize an object in Java.
