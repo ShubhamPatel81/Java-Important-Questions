@@ -1,6 +1,5 @@
 package src.HashMap.HashMap_Screach;
 
-import src.InnerClasses.Anonymous_InnerClass.Payment;
 
 import java.util.Hashtable;
 import java.util.LinkedList;

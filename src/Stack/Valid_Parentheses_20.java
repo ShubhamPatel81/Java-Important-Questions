@@ -13,7 +13,6 @@ public class Valid_Parentheses_20 {
                 if(stack.isEmpty()){
                     return false;
                 }
-
                 if( c == ']' && stack.peek()!='['){
                     return false;
                 }
@@ -23,8 +22,6 @@ public class Valid_Parentheses_20 {
                 if( c == ')' && stack.peek()!='('){
                     return false;
                 }
-
-
                 stack.pop();
             }
         }

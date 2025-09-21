@@ -1,0 +1,3 @@
+- It is behavioural Design Pattern
+- In this when subject changes the state all its dependent objects notified the changes
+- One to many relation

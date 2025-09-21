@@ -1,9 +1,8 @@
-package src;
+package src.JavaInterviewProgrammingQuestions;
 
 import java.util.Scanner;
 
-public class PrimeNumber {
-
+public class PrimeOrNot {
     public static void main(String[] args) {
         Scanner sc= new Scanner(System.in);
         System.out.println("Enter the number : ");
@@ -24,6 +23,5 @@ public class PrimeNumber {
         }else {
             System.out.println("Number is Prime number ");
         }
-        System.err.println("This is an System.err.println() example ");
     }
 }

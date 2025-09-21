@@ -34,15 +34,12 @@ class Number implements Comparable<Number>{
     }
     @Override
     public int compareTo(Number that){
-
         //max heap
 //        return that.frequency - this.frequency;//decending order
-
         //min heap
         return this.frequency - that.frequency;
     }
 }
-
 public class PriorityQueue_leetcode_347 {
     public int[] topKFrequent(int[] nums, int k) {
         PriorityQueue<Number> pq = new PriorityQueue<>();
@@ -50,12 +47,11 @@ public class PriorityQueue_leetcode_347 {
         for(int num : nums){
             map.put(num,map.getOrDefault(num,0)+1);
         }
-
         // insert the element into the priority queue
         for(Map.Entry<Integer,Integer> entry :map.entrySet() ){
             Number n = new Number(entry.getKey(),entry.getValue());
             pq.offer(n);
-            //this will  restrict the element tofollow the min heap
+            //this will  restrict the element to follow the min heap
             if(pq.size()> k){
                 pq.poll();
             }
@@ -69,7 +65,6 @@ public class PriorityQueue_leetcode_347 {
         }
         return res;
     }
-
     public static void main(String[] args) {
         PriorityQueue_leetcode_347 obj = new PriorityQueue_leetcode_347();
         int[] result = obj.topKFrequent(new int[]{1,1,1,2,2,3}, 2);
