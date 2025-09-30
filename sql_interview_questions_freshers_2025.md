@@ -60,8 +60,6 @@ SQL Interview Questions for Freshers (2025)
     PostgreSQL, SQL Server)?
 
 ## Solution : -
-Great — below are clear, exam-/interview-ready answers to all **50 SQL questions** with explanations and short examples you can run in MySQL/Postgres/SQL Server (I note variations when relevant). I’ve kept each answer focused and practical so you can memorize or paste examples into a console. If you want, I can also convert this into a printable cheat-sheet or flashcards.
-
 ---
 
 **Quick sample tables I’ll reuse for examples (create once):**

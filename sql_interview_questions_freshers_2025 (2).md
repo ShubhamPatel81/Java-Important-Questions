@@ -27,12 +27,6 @@ SQL Interview Questions for Freshers (2025)
 24. Explain the difference between DELETE, TRUNCATE, and DROP commands.
 25. How to find employees hired between two dates?
 
-## Solution :- 
-
-Perfect — you’re asking for **25 SQL fresher-level interview questions (2025)** with **detailed answers + examples**. I’ll go through each one, give a **clear explanation**, and provide a **sample SQL query** where appropriate.
-
----
-
 ## **SQL Interview Q&A for Freshers (2025)**
 
 ---
