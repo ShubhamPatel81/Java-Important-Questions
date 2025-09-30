@@ -1,0 +1,26 @@
+
+//The Prototype design pattern is a creational design pattern in Java that enables
+// the creation of new objects by copying an existing object, known as the prototype.
+
+
+also impelment deep copying and sallow copying
+
+Shallow Copy:
+    If a field is a reference type (like an object or an array),
+    only the reference to that object or array is copied, not the object or array itself.
+    This means both the original and the copied object will point to the same underlying nested object or array in memory.
+
+Deep Copy:
+    For reference types, a new instance of the nested object or array is created, and its contents are copied from the original.
+    This ensures complete independence
+
+
+    // for cloning(deep copy logic)
+            NetworkConnection networkConnection = new NetworkConnection();
+            networkConnection.setIp(this.getIp());
+            networkConnection.setImportantData(this.getImportantData());
+
+            for (String d:this.getDomains()){
+                networkConnection.getDomains().add(d);
+            }
+             return  networkConnection;

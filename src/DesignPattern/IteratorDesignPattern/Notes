@@ -1,0 +1,2 @@
+- The iterator pattern provide a way to access the element of an object without exposing its underlying implementation
+- In Iterator method mostly we implement hasNext() and next() method and then check weather it is iterable or not

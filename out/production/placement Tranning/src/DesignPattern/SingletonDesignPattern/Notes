@@ -1,0 +1,35 @@
+  - In singleton design pattern -> hm only ek hi baar object create karte hai aur pure project me kahi bhi use kr sakete hai
+  - A Singleton class ensures only one instance exists  in the JVM
+  --->  How to make singleton
+   1. private static instance
+   2. private constructor
+   3. public method to return instance
+
+  /*
+             -- Way of breaking the singleton  design pattern
+               1. Reflection API to break singleton pattern
+               Solution -> i. If Object is there ==> thrown Exception (intside constructon)
+                           ii. OR use ENUM
+                2. Deserialization :
+                solution -> implement readResolve() method
+
+                3. Cloning (if we clone the object than also singleton pattern will be disrepute)
+
+           */
+
+- In singleton design pattern -> hm only ek hi baar object create karte hai aur pure project me kahi bhi use kr sakete hai
+-constructor
+    - kb bhi singleton design pattern use kr rhe ho to constructor hamesa private hi banana hai
+
+    Lazy (Lazy initialization )way of creating single object
+        Isme hm thread ke dhyan hi nhi diya hai
+        If multiple thread is code ko execute kr rhe hai to problem hoga (kyuki threads are concurrent (means all thread execute at same time))
+        To create this thread safe use "synchronized" keyword
+         We have to synchronized only this otherwise if we synchronized full method then it will take time for executing other thread beacuse may be other code of this method are executing
+
+
+
+   Eager(Eager Initialization) way if creating singleton
+   Eager way me static variable sabse pahale initialize ho jate hai
+
+

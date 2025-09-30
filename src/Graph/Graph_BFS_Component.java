@@ -15,7 +15,6 @@ public class Graph_BFS_Component {
                 bfs(i,queue,visited,res,adj);
             }
         }
-
         return res;
     }
 

@@ -1,0 +1,13 @@
+In this design pattern the above class component will be set to the inner class using
+" this " keyword and return " this "
+
+example -
+public UserBuilder setUserId(String userId) {
+            this.userId = userId;
+            return this;
+        }
+
+public User build(){
+            User user =new User(this);
+            return user;
+     }
