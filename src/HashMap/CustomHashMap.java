@@ -1,7 +1,5 @@
 package src.HashMap;
 
-import src.OOPS.Interface;
-
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Objects;

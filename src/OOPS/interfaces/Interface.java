@@ -1,4 +1,4 @@
-package src.OOPS;
+package src.OOPS.interfaces;
 
 public class Interface {
     public static void main(String[] args) {
