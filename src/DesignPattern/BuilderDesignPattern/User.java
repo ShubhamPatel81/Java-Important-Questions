@@ -32,7 +32,7 @@ public class User
     //inner class to create object
     static class UserBuilder{
         private  String userId;
-        private  String userName;
+         private  String userName;
         private  String email;
         public UserBuilder(){
 
