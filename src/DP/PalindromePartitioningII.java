@@ -76,6 +76,9 @@ class Solution2 {
         return solve(s, 0, n - 1);
     }
 }
+
+
+// Using bottom up approach
 class Solution3 {
     public int minCut(String s) {
         int n = s.length();
