@@ -1,6 +1,6 @@
 @REM  Refer to Notes file ----
 
-##
+```text
 JAVA
  │
  ├── OOP
@@ -76,7 +76,8 @@ ADVANCED PROJECTS
  ├── MapReduce Engine
  ├── Distributed Database
  └── Fault-Tolerant Service
-##
+
+```
 
 Yes. Think of this roadmap as **one continuous staircase**: first you learn how one Java program works, then how multiple threads work inside one machine, then how multiple machines communicate, and finally how those machines coordinate despite failures.
 
